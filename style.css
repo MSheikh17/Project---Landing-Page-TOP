@@ -69,8 +69,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 80px;
-    margin-left: 30px;
+    padding: 0 90px;
+    margin-left: 80px;
     color: #f9faf8;
 }
 
@@ -79,6 +79,7 @@ a {
     padding: 6px 15px;
     border-radius: 12px;
     color: #f9faf8;
+    cursor: pointer;
 }
 
 footer {
@@ -103,13 +104,14 @@ footer {
 
 .cards {
     display: flex;
-    gap: 25px;
+    gap: 40px;
     margin-bottom: 60px;
 }
 
 .subtext {
     text-align: center;
     font-size: 14px;
+    width: 180px;
 }
 
 .cards {
@@ -157,6 +159,7 @@ footer {
     padding: 20px;
     display: flex;
     padding: 40px;
+    border-radius: 20px;
 }
 
 .text {
@@ -170,6 +173,7 @@ footer {
     background-color: #3882f6;
     color: #f9faf8;
     border: 1px solid white;
+    cursor: pointer;
 }
 
 footer {
