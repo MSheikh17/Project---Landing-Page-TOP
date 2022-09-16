@@ -9,20 +9,26 @@ body {
     display: flex;
     flex-direction: column;
     /* font-family: 'Slabo 27px', serif; */
-    font-family: 'Work Sans', sans-serif
+    font-family: 'Work Sans', sans-serif;
+    background: url(https://support.worldwildlife.org/images/content/pagebuilder/LILI_ZoomBackgroundv31366x768.jpg) no-repeat fixed;
 }
 
 .header {
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
     padding: 0 120px;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .nav {
+    background-color: #1F2937;
     display: flex;
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 50px;
+    width: 100%;
+    position: fixed;
+    padding: 5px;
 }
 
 .logo {
@@ -70,7 +76,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 0 90px;
-    margin-left: 80px;
+    margin-left: auto;
     color: #f9faf8;
 }
 
@@ -95,6 +101,7 @@ footer {
 
 .section-1 {
     padding: 25px 120px;
+    background-color: #d8d1c84f;
 }
 
 .section-1>h1 {
@@ -104,14 +111,14 @@ footer {
 
 .cards {
     display: flex;
-    gap: 40px;
+    gap: 50px;
     margin-bottom: 60px;
 }
 
 .subtext {
     text-align: center;
     font-size: 14px;
-    width: 180px;
+    width: 200px;
 }
 
 .cards {
@@ -121,8 +128,8 @@ footer {
 
 .card {
     border: 2px solid #3882f6;
-    width: 190px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     display: flex;
 }
@@ -147,7 +154,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f9faf8;
+    /* background-color: #f9faf8; */
     padding: 70px 0;
 }
 
